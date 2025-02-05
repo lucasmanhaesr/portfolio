@@ -1,0 +1,25 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
+@font-face {
+    font-family: 'SF Pro';
+    src: url(../font/SFPRODISPLAYREGULAR.OTF);
+}
+
+:root{
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --azul: rgb(19, 67, 103);
+    --sombra: rgba(16, 16, 16, 0.475);
+    --fonte-principal: "SF Pro"
+}
+
+html{
+    font-family: var(--fonte-principal);
+}
+
+body{
+    background-color: var(--branco);
+}
