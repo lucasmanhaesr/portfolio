@@ -1,3 +1,3 @@
 ## Github Pages
 
-#### Endereço: https://lucasmanhaesr.github.io/portfolio/
+#### Endereço: <a target="_blank">https://lucasmanhaesr.github.io/portfolio/</a>
