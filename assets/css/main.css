@@ -35,7 +35,7 @@
 }
 
 .sobre-textos{
-    height: 30vh;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -44,6 +44,7 @@
 .sobre-texto-principal, .sobre-texto-secundario{
     font-size: 1.6rem;
     line-height: 1.6;
+    margin: 1rem 0;
 
 }
 
