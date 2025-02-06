@@ -1,0 +1,54 @@
+#contact{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    margin: 3rem auto;
+    background-color: var(--branco);
+    border-radius: 0.8rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+    
+#name, #email, #subject, #message{
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #6e6e73;
+    background-color: hsla(0, 0%, 100%, .04);
+}
+
+#name:focus, #email:focus, #subject:focus, #message:focus{
+    border-color:  #0071e3;
+    outline: #0071e3;
+}
+
+#message::placeholder{
+    font-size: 1.4rem;
+    font-weight: 100;
+    font-family: var(--fonte-principal);
+}
+    
+.botao-enviar{
+    width: 20rem;
+    padding: 1rem;
+    color: var(--branco);
+    border: none;
+    border-radius: 1rem;
+    background-color: #0071e3;
+}
+
+.botao-enviar:hover{
+    cursor: pointer;
+}
+
+.mapa-titulo{
+    padding: 0 0 1rem;
+}
+
+#mapa{}
